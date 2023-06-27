@@ -1,3 +1,59 @@
+html {
+  border-left: 5px lightgray;
+}
+
 body {
-  background-color: antiquewhite;
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header main footer {
+  padding:1rem 2rem 1rem 2rem;
+}
+
+h1 {
+  color: tomato;
+}
+.date {
+  color: lightgray;
+}
+img {
+  width: 100%;
+}
+
+ ul {
+  padding: 30px 0px 0px 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: inline;
+}
+
+.nav-top a {
+  color: lightgray;
+}
+
+.nav-bottom a {
+  color: tomato;
+  padding-top: 2px;
+}
+
+.con {
+  color: tomato;
+  text-align: right;
+}
+span {
+  font-size: 75px;
+  float: left;
+  margin-right: 10px;
+  display: inline-block;
+  color: lightgray;
+}
+
+#copy {
+  color: lightgray;
 }
